@@ -1,10 +1,13 @@
 import './App.css'
+import Navbar from './components/Navbar/Navbar.jsx'
+import SecondaryNav from './components/SecondaryNav/SecondaryNav.jsx'
 
 function App() {
 
   return (
-    <div className='text-2xl font-bold'>
-      Amazon Clone
+    <div>
+      <Navbar />
+      <SecondaryNav />
     </div>
   )
 }
