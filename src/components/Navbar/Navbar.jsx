@@ -2,10 +2,8 @@ import { FaSearch, FaShoppingCart, FaMapMarkerAlt } from "react-icons/fa";
 
 function Navbar() {
   return (
-    <header className="bg-[#131921] text-white">
-      <div className="container flex items-center justify-between py-2 gap-1 pl-6 ">
-
-
+    <header className="bg-[#076446] text-white">
+      <div className="flex items-center gap-4 px-4 py-2 overflow-x-auto whitespace-nowrap hide-scroll">
         <div className="flex items-center gap-2 cursor-pointer text-white-400 pl-200px">
           <img
             src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Amazon_logo.svg"
