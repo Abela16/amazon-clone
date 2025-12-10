@@ -6,7 +6,7 @@ import HeroBanner from './components/Hero/HeroBanner.jsx'
 function App() {
 
   return (
-    <div>
+    <div className='overflow-x-auto whitespace-nowrap hide-scroll'>
       <Navbar />
       <SecondaryNav />
       <HeroBanner />
