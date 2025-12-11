@@ -36,7 +36,7 @@ function Navbar() {
           </button>
         </div>
         <div>
-          <select className="text-white bg-transparent p-2 rounded border border-transparent hover:border-white p-1">
+          <select className="text-white bg-transparent rounded border border-transparent hover:border-white p-1">
             <div className="text-black">
             <option>Eng</option>
             <option>Amh</option>
